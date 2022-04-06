@@ -448,7 +448,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  color: red;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -560,7 +560,8 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  color: red;
+  font-weight: bold;
 }
 
 @media (max-width: 1200px) {
