@@ -1,3 +1,10 @@
+/** Updates the copyright year at the bottom of the page to be the current year */
+function updateCopyRightYear() {
+	let year = (new Date()).getFullYear();
+	let copyrightyear = document.getElementById("copyright-year");
+	copyrightyear.textContent = year;
+}
+
 (function ($) {
 	
 	"use strict";
@@ -110,6 +117,8 @@
 				$("#preloader").css("visibility", "hidden").fadeOut();
 			}, 300);
 		});
+
+		updateCopyRightYear();
 	});
 
 
